@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendario con Corazones</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: #d63384;
+      margin-top: 30px;
+    }
+
+    .calendar-container {
+      margin: 30px auto;
+      width: fit-content;
+      border: 5px solid #ff99cc;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+      padding: 10px;
+      background-color: #fff0f5;
+    }
+
+    .hearts {
+      font-size: 30px;
+      color: #ff66b2;
+      animation: float 2s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #cc3366;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌸 Mi Calendario Encantado 🌸</h1>
+
+  <div class="hearts">💖 💕 💗 💓 💞 💘</div>
+
+  <div class="calendar-container">
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?src=belenmonterogutierrez%40gmail.com&ctz=Europe%2FMadrid" 
+      style="border: 0" 
+      width="800" 
+      height="600" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
+
+  <div class="hearts">💖 💕 💗 💓 💞 💘</div>
+
+  <div class="footer">
+    Hecho con mucho 💖 por ti.
+  </div>
+
+</body>
+</html>
